@@ -31,7 +31,7 @@ Together, these reduce address metadata storage by up to **40%**, overall compre
 
 ## How It Works
 
-![Algorithm Flow](fig2_algorithm.png)
+![Algorithm Flow](Photos/fig2_algorithm.png)
 *Fig. 2: The MAR-MP algorithm flow across four steps — non-zero identification, delta and NNZ vector encoding, offline merge planning, and hardware index reconstruction via double-buffered FIFO and position register.*
 
 The MAR-MP pipeline consists of four steps:
@@ -78,7 +78,7 @@ Three rows A, B, C with NNZ = `[3, 2, 3]` and hardware width W = 8:
 
 ## Results
 
-![Performance Evaluation](fig3_performance.png)
+![Performance Evaluation](Photos/fig3_performance.png)
 *Fig. 3: (a) and (b) Storage footprint and address-only metadata overhead across various matrix dimensions. (c) Average size ratio and encoding latency across different sparsity levels. MAR-MP consistently achieves the lowest memory footprint and fastest encoding time.*
 
 ### Storage & Speed Summary
