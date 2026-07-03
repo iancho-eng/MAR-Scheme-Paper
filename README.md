@@ -12,7 +12,7 @@
 
 Sparse weight matrices produced by modern DNN pruning (70–98% sparsity) offer major efficiency gains — but conventional parallel hardware like systolic arrays process every element uniformly, wasting compute on zeros.
 
-![Motivation](fig1_motivation.png)
+![Motivation](Photos/fig1_motivation.png)
 *Fig. 1: A sparse weight matrix mapped to conventional hardware results in 100% compute overhead. Sparsity-aware hardware executes only non-zero elements, dramatically reducing active processing slots.*
 
 MAR-MP addresses two critical bottlenecks in deploying sparse matrix acceleration for DNN inference on edge hardware:
